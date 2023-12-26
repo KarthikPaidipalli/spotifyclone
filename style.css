@@ -1,0 +1,103 @@
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    background-color: black;
+    height: 60px;
+
+}
+.nav-list{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    color: white;
+}
+.nav-li{
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 15px;
+}
+.nav-spotify-image{
+    height: 60px;
+    width: 60px;
+    padding-left: 8px;
+}
+.spotify-li{
+    font-weight: bold;
+    font-size: 18px;
+}
+.container{
+    min-height: 72vh;
+    background-color: rgb(46, 44, 44);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('background.jpg');
+}
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.icons i{
+    cursor: grab;
+}
+.song-length-bar{
+    width: 80vw;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.songcontainer{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 12px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.time-in-song{
+    margin: 0 20px;
+}
+.songlist-image{
+    width: 40px;
+    margin: 0 23px;
+}
+.allsongscontainer{
+    margin-top: 70px;
+}
+.songinfo{
+    width: 42px;
+}
+.invisible{
+    display: none;
+}
+.gif-of-music{
+    margin-top: 20px;
+    position: absolute;
+    left: 10vw;
+}
+.displaybutton{
+    display: none;
+}
+.curserpoint{
+    cursor: pointer;
+}

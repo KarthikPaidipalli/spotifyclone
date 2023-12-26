@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div id="spotifyclone-myfav">
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li><img src="download.png" alt="" class="nav-spotify-image"></li>
+                <li class="spotify-li">Spotify</li>
+                <li class="nav-li">Home</li>
+                <li class="nav-li">About</li>
+            </ul>
+        </nav>
+        <div class="container">
+            <div class="songlist">
+                <h1>Favorite Song</h1>
+                <div class="allsongscontainer" id="all-songs-container">
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div><input type="range" name="range" class="song-length-bar" id="song-length" min="0" value="0" max="100"></div>
+
+            <div class="icons">
+                <i class="fa-solid fa-2x fa-backward" id="previoussong"></i>
+                <i class="fa-solid fa-2x fa-play-circle" id="play"></i>
+                <i class="fa-solid fa-2x fa-forward" id="nextsong"></i>
+            </div>
+            <div class="gif-of-music"><img src="musicgig.gif" alt="" class="songinfo invisible" id="gif"><span class="pb-5" id="song-name-display"></span></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+    <script src="https://kit.fontawesome.com/ac42c3b1f7.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
